@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Adivinha</title>
+    <script src="jogoAdivinha.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Como funciona:</h1>
+    </header>
+    <p>O programa irá gerar um número aleatório entre 1 e 100, e você terá que adivinhar qual é esse número.
+    Você terá 10 tentativas para acertar o número. A cada tentativa, o programa irá informar se o número secreto é maior ou menor do que o seu palpite.
+    Se você acertar o número, uma mensagem de parabéns será exibida. Caso contrário, ao final das 10 tentativas, o número secreto será revelado.</p>
+
+
+    <div class="caixa">
+        <label for="chute">Seu palpite:</label>
+        <input type="number" id="chute">
+        <button type="button" id="btn" onclick="tentativas()">Chutar</button>
+    </div>
+
+
+    
+</body>
+</html>
